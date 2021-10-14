@@ -45,7 +45,7 @@ const Home: React.FC = () => {
                                         },
                                         {
                                             type: "username",
-                                            label: "Username",
+                                            label: "Username (must be the same as your email address)",
                                             placeholder: "For some reason, usernameAlias=email isn't working so well for me.",
                                             inputProps: {required: true, autocomplete: "username"},
                                         },
