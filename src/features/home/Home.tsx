@@ -40,36 +40,36 @@ const Home: React.FC = () => {
                                         {
                                             type: "email",
                                             label: "Email Address",
-                                            placeholder: "We promise to never, ever, ever spam you!",
+                                            placeholder: "Email Address",
                                             inputProps: {required: true, autocomplete: "email"},
                                         },
                                         {
                                             type: "username",
                                             label: "Username (must be the same as your email address)",
-                                            placeholder: "For some reason, usernameAlias=email isn't working so well for me.",
+                                            placeholder: "Username",
                                             inputProps: {required: true, autocomplete: "username"},
                                         },
                                         {
                                             type: "name",
                                             label: "Name",
-                                            placeholder: "What can we call you?",
+                                            placeholder: "Name",
                                             inputProps: {required: true},
                                         },
                                         {
                                             type: "password",
                                             label: "Password",
-                                            placeholder: "Don't enter your kid's birthday here",
+                                            placeholder: "Password",
                                             inputProps: {required: true, autocomplete: "new-password"},
                                         },
                                         {
                                             type: "phone_number",
                                             label: "Phone Number",
-                                            placeholder: "We'd like to call you at 2AM, just to check that you're sleeping.",
+                                            placeholder: "Phone Number",
                                         },
                                         {
                                             type: "website",
                                             label: "Website Address",
-                                            placeholder: "Enter your website address here, we'd love to read your blog.",
+                                            placeholder: "Website Address",
                                         },
                                     ]}
                                 />
